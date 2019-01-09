@@ -1,0 +1,4 @@
+def x = 'x'
+pipeline {
+  agent { node { label 'webmethods' }
+}
